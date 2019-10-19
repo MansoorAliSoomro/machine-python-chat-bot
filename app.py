@@ -19,6 +19,11 @@ def get():
     return jsonify ( responseDict )
 
 
+.route('/get')
+def getmethod():
+    return "This is the get method."
+
+
 
 #Run server
 # if __name__ == "__main__":
